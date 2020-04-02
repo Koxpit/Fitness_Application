@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.CMD.exe
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.CMD.deps.json
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.CMD.runtimeconfig.json
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.CMD.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.CMD.dll
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.CMD.pdb
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.BL.dll
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\bin\Debug\netcoreapp3.1\FitnessApp.BL.pdb
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\obj\Debug\netcoreapp3.1\FitnessApp.CMD.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\obj\Debug\netcoreapp3.1\FitnessApp.CMD.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\obj\Debug\netcoreapp3.1\FitnessApp.CMD.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\obj\Debug\netcoreapp3.1\FitnessApp.CMD.csproj.CopyComplete
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\obj\Debug\netcoreapp3.1\FitnessApp.CMD.dll
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.CMD\obj\Debug\netcoreapp3.1\FitnessApp.CMD.pdb

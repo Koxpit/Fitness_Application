@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FitnessApp.CMD/1.0.0": {
+        "dependencies": {
+          "FitnessApp.BL": "1.0.0"
+        },
+        "runtime": {
+          "FitnessApp.CMD.dll": {}
+        }
+      },
+      "FitnessApp.BL/1.0.0": {
+        "runtime": {
+          "FitnessApp.BL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FitnessApp.CMD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FitnessApp.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

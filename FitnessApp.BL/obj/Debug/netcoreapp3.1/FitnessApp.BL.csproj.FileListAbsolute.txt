@@ -1,0 +1,7 @@
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.deps.json
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.dll
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\bin\Debug\netcoreapp3.1\FitnessApp.BL.pdb
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.dll
+C:\Users\lenovo\source\repos\FitnessApp\FitnessApp.BL\obj\Debug\netcoreapp3.1\FitnessApp.BL.pdb
