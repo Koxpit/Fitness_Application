@@ -7,6 +7,7 @@ namespace FitnessApp.BL.Models
     /// <summary>
     /// Пол.
     /// </summary>
+    [Serializable]
     public class Gender
     {
         /// <summary>
