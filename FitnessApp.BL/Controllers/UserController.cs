@@ -11,15 +11,22 @@ namespace FitnessApp.BL.Controllers
     /// <summary>
     /// Контроллер пользователя.
     /// </summary>
-    public class UserController
+    public class UserController : ControllerBase
     {
+        private const string USER_FILE_PATH = "users.dat";
         /// <summary>
-        /// Пользователь приложения.
+        /// Пользователи приложения.
         /// </summary>
         public List<User> Users { get; }
 
+        /// <summary>
+        /// Текущий пользователь
+        /// </summary>
         public User CurrentUser { get; }
 
+        /// <summary>
+        /// Пользователь новый или нет
+        /// </summary>
         public bool IsNewUser { get; } = false;
 
         public UserController(string userName)
@@ -38,7 +45,7 @@ namespace FitnessApp.BL.Controllers
                 CurrentUser = new User(userName);
                 Users.Add(CurrentUser);
                 IsNewUser = true;
-                Save();
+                SaveUsersData();
             }
         }
 
@@ -48,19 +55,7 @@ namespace FitnessApp.BL.Controllers
         /// <returns></returns>
         private List<User> GetUsersData()
         {
-            var formatter = new BinaryFormatter();
-
-            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
-            {
-                if (fs.Length > 0 && formatter.Deserialize(fs) is List<User> users)
-                {
-                    return users;
-                }
-                else
-                {
-                    return new List<User>();
-                }
-            }
+            return Load<List<User>>(USER_FILE_PATH) ?? new List<User>();
         }
 
         public void SetNewUserData(string genderName, DateTime birthDate, double weight = 1, double height = 1)
@@ -69,20 +64,15 @@ namespace FitnessApp.BL.Controllers
             CurrentUser.BirthDate = birthDate;
             CurrentUser.Weight = weight;
             CurrentUser.Height = height;
-            Save();
+            SaveUsersData();
         }
 
         /// <summary>
         /// Сохранить данные пользователя
         /// </summary>
-        public void Save()
+        public void SaveUsersData()
         {
-            var formatter = new BinaryFormatter();
-
-            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, Users);
-            }
+            Save(USER_FILE_PATH, Users);
         }
     }
 }
